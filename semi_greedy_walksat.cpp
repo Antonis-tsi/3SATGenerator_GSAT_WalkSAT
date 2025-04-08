@@ -4,11 +4,6 @@
 
 using namespace std;
 
-
-
-
-
-
 vector<int> walksat_semi_greedy(vector<vector<int>> problem, int maxflips, int maxtries, double propability, int variables_num, double a) {
     vector<int> variables_assigment(variables_num, 0);
     int current_satisfied_clauses = 0;
